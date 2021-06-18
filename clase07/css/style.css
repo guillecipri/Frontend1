@@ -1,0 +1,105 @@
+body {
+    background: #FFFFFF;
+    font-family: 'Chelsea Market', cursive;
+    height: 1024px;
+    position: relative;
+    width: 100%;
+}
+
+/* Header */
+header {
+    background: #E6E6E6;
+    height: 233px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+}
+img {
+    margin-top: 2%;
+    width: 200px;
+}
+
+h1 {
+    color: #005677;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    font-feature-settings: 'cpsp' on;
+    padding-top: 0.5%;
+    text-align: center;
+}
+
+/* Main */
+main {
+    margin: 8% 0 8% 0;
+}
+
+
+
+.contenedor1 {
+    height: 60px;
+    background: #C4C4C4;
+}
+/* ---- Seccion Datos Personales / Formacion académica / Experiencia laboral ----*/
+section {
+    position: relative;
+    width: 65%;
+    margin: 4% 0 0 17%;
+}
+
+h2 {
+    background: #C4C4C4;
+    color: #005677;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    font-feature-settings: 'cpsp' on;
+    height:5%;
+    padding: 0.5% 0 0 1.5%;
+}
+
+li {
+    list-style: none;
+    margin-top: 1.5%;
+    font-size: 17px;
+}
+strong {
+    font-style: italic;
+}
+
+.contenedor2 {
+    margin: 2.5%;
+}
+
+p {
+    font-size: 17px;
+}
+
+/* Footer */
+footer {
+    background: #C4C4C4;
+    padding: 1%;
+    position: relative;
+    text-align: center;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+i {
+    font-size: 20px;
+}
+
+
+/* ---- header sobremi.html ---- */
+/* Banner */
+#sobre-mi {
+    background-image: url('../img/banner.jpg');
+    background-size: contain;
+    height: 650px;
+    width: 100%;
+}
+.footer2 {
+    background-color:  #c1e698;;
+}

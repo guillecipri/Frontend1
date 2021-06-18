@@ -1,0 +1,62 @@
+/* Full Desktop */
+body {
+    position: relative;
+    width: 1024px;
+    height: 1807px;
+    background: #FFFFFF;
+}
+
+/* Top */
+aside {
+    position: absolute;
+    width: 1024px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    border: 1px
+    rgba(243, 243, 243, 1),
+}
+ /* Header */
+header {
+    position: absolute;
+    width: 1024px;
+    height: 62px;
+    left: 0px;
+    top: 20px;
+}
+
+/* Main */
+main {
+    position: absolute;
+    width: 1024px;
+    height: 951px;
+    left: 0px;
+    top: 81px;
+}
+
+/* Formulario */
+.form-contact {
+    position: absolute;
+    width: 340px;
+    height: 264px;
+    left: 343px;
+    top: 1110px;
+}
+
+/* Suscription */
+.suscriptions {
+    position: absolute;
+    width: 1024px;
+    height: 60px;
+    left: 0px;
+    top: 1449px;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    width: 1024px;
+    height: 301px;
+    left: 0px;
+    top: 1506px;
+}
