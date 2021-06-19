@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Pet shop</title>
 </head>
 <body>
     <aside>
         <div>
-            <p>Grandes ofertas en comedores</p>
+            <p class="top">Grandes ofertas en comedores</p>
         </div>
         <div>
-            <p>Español</p>
-            <p>ARG</p>
+            <p class="top">Español</p>
+            <p class="top">ARG</p>
         </div>
     </aside>
     <header>
@@ -29,45 +32,48 @@
         </nav>
     </header>
     <main>
-        <section>
-            <img src="./img/comida_perro_big.png" alt="slide">
-            <h2>¡Es un placer tenerte aquí!</h2>
-            <p>¡Comederos en descuento!</p>
-            <button>COMEDEROS</button>
+        <section class="banner">
+            <div class="container-banner">
+                <br>
+                <h2>¡Es un placer tenerte aquí!</h2>
+                <p>¡Comederos en descuento!</p>
+                <button class="btn-comedero">COMEDEROS</button>
+            </div>
         </section>
         <section>
-            <img src="./img/pawprint.png" alt="img patita">
+            <i class="fas fa-paw"></i>
             <h1>Productos Destacados</h1>
             <a href="">Comderos</a>
             <a href="">Accesorios</a>
             <a href="">Comida</a>
             <div>
                 <img src="./img/churrasquito.png" alt="imagen juguete churrasquito">
-                <p>Juguete churrasquito</p>
-                <p>$ 150</p>
+                <p class="text">Juguete churrasquito</p>
+                <p class="precio">$ 150</p>
             </div>
             <div>
                 <img src="./img/comedero.png" alt="imagen comedero para perro">
-                <p>Comedero para perro</p>
-                <p>$ 250</p>
+                <p class="text">Comedero para perro</p>
+                <p class="precio">$ 250</p>
             </div>
             <div>
                 <img src="./img/Huesito.png" alt="imagen juguete huesito">
-                <p>Juguete huesito</p>
-                <p>$ 650</p>
+                <p class="text">Juguete huesito</p>
+                <p class="precio">$ 650</p>
             </div>
         </section>
     </main>
     <section id="form-contact">
         <form action="">
             <h3>Contáctanos</h3>
-            <input type="Nombre y Apellido">
-            <input type="Ingresa tu correo electrónico">
-            <input type="Teléfono">
+            <input type="text" value="Nombre y Apellido">
+            <input type="email" value="Ingresa tu correo electrónico">
+            <input type="text" value="Teléfono">
             <button type="reset">Resetear</button>
             <button type="submit">Enviar</button>
         </form>
         <div id="suscriptions">
+            <i class="fas fa-envelope-open-text"></i>
             <h4>Suscríbete para más novedades</h4>
             <form action="">   
                 <input type="Ingresa tu correo electrónico">
@@ -78,25 +84,27 @@
     <footer>
         <div class="info">
             <div class="location">
-                <img src="./img/icono-locacion.png" alt="icono locación" />
-                <p>Localidad</p>
-                <p>Calle - provincia</p>
+                <i class="iconos fas fa-map-marker-alt"></i>
+                <p class="text-primario">Localidad</p>
+                <p class="text-secundario">Calle - provincia</p>
             </div>
             <div class="telephone">
-                <img src="./img/icono-telefono.png" alt="icono telefono" />
-                <p>Teléfono</p>
-                <p>Número de teléfono</p>
+                <i class="iconos fas fa-phone-volume"></i>
+                <p class="text-primario">Teléfono</p>
+                <p class="text-secundario">Número de teléfono</p>
             </div>
             <div class="email">
-                <img src="./img/icono-correo.png" alt="icono email" />
-                <p>Correo Electrónico</p>
-                <p>Dirección de correo</p>
+                <i class="iconos fas fa-at"></i>
+                <p class="text-primario">Correo Electrónico</p>
+                <p class="text-secundario">Dirección de correo</p>
             </div>
         </div>
         <div class="logo-footer">
             <img src="./img/logo-footer.png" alt="logo">
         </div>
-        <p>&copy;Todos los derechos reservados Front End</p>
+        <div class="container-derechos">
+            <p class="derechos">&copy;Todos los derechos reservados Front End</p>
+        </div>
     </footer>
 </body>
 </html>

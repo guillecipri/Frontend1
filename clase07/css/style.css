@@ -1,5 +1,5 @@
 body {
-    background: #FFFFFF;
+    background: #EAE5DF;
     font-family: 'Chelsea Market', cursive;
     height: 1024px;
     position: relative;
@@ -9,8 +9,7 @@ body {
 /* Header */
 header {
     background: #E6E6E6;
-    height: 233px;
-    left: 0px;
+    height: 23%;
     text-align: center;
     width: 100%;
 }
@@ -37,7 +36,7 @@ main {
 
 
 .contenedor1 {
-    height: 60px;
+    height: 28%;
     background: #C4C4C4;
 }
 /* ---- Seccion Datos Personales / Formacion académica / Experiencia laboral ----*/
